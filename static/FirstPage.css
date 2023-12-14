@@ -1,0 +1,922 @@
+/* First page */
+
+position: relative;
+width: 1920px;
+height: 4200px;
+
+background: #000A23;
+
+
+/* 오늘의 TOP10 차트 */
+
+position: absolute;
+width: 332px;
+height: 48px;
+left: 794px;
+top: 126px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+/* 오늘의 박스오피스 랭킹 */
+
+position: absolute;
+width: 344px;
+height: 44px;
+left: 348px;
+top: 428px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 더 마블스 1 */
+
+position: absolute;
+width: 240px;
+height: 340px;
+left: 323px;
+top: 530px;
+
+background: url(더 마블스);
+
+
+/* 그대들은어떻게살것인가 1 */
+
+position: absolute;
+width: 240px;
+height: 340px;
+left: 580px;
+top: 530px;
+
+background: url(그대들은어떻게살것인가);
+
+
+/* 서울의봄 1 */
+
+position: absolute;
+width: 240px;
+height: 340px;
+left: 840px;
+top: 530px;
+
+background: url(서울의봄);
+
+
+/* 헝거게임 1 */
+
+position: absolute;
+width: 240px;
+height: 340px;
+left: 1100px;
+top: 530px;
+
+background: url(헝거게임);
+
+
+/* 30일 1 */
+
+position: absolute;
+width: 240px;
+height: 340px;
+left: 1100px;
+top: 970px;
+
+background: url(30일);
+
+
+/* 뉴노멀 1 */
+
+position: absolute;
+width: 240px;
+height: 340px;
+left: 320px;
+top: 970px;
+
+background: url(뉴노멀);
+
+
+/* 다크나이트 1 */
+
+position: absolute;
+width: 240px;
+height: 340px;
+left: 840px;
+top: 970px;
+
+background: url(다크나이트);
+
+
+/* 비투비 1 */
+
+position: absolute;
+width: 240px;
+height: 340px;
+left: 1360px;
+top: 530px;
+
+background: url(비투비);
+
+
+/* 소년들 1 */
+
+position: absolute;
+width: 240px;
+height: 340px;
+left: 580px;
+top: 970px;
+
+background: url(소년들);
+
+
+/* 여귀교 1 */
+
+position: absolute;
+width: 240px;
+height: 340px;
+left: 1360px;
+top: 970px;
+
+background: url(여귀교);
+
+
+/* 더 마블스 */
+
+position: absolute;
+width: 93px;
+height: 21px;
+left: 320px;
+top: 885px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* 그대들은 어떻게 살 것인가 */
+
+position: absolute;
+width: 212px;
+height: 21px;
+left: 580px;
+top: 885px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* 서울의 봄 */
+
+position: absolute;
+width: 93px;
+height: 21px;
+left: 840px;
+top: 885px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* 헝거게임: 노래하는 새와 뱀의 발라드 */
+
+position: absolute;
+width: 240px;
+height: 43px;
+left: 1100px;
+top: 885px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+
+color: #FFFFFF;
+
+
+
+/* 비투비 타임: 비투게더 더 무비 */
+
+position: absolute;
+width: 237px;
+height: 21px;
+left: 1360px;
+top: 885px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* 뉴 노멀 */
+
+position: absolute;
+width: 78px;
+height: 21px;
+left: 320px;
+top: 1325px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* 소년들 */
+
+position: absolute;
+width: 73px;
+height: 21px;
+left: 580px;
+top: 1325px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* 다크 나이트 */
+
+position: absolute;
+width: 109px;
+height: 21px;
+left: 840px;
+top: 1325px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* 30일 */
+
+position: absolute;
+width: 63px;
+height: 21px;
+left: 1100px;
+top: 1325px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* 여귀교: 저주를 부르는 게임 */
+
+position: absolute;
+width: 217px;
+height: 21px;
+left: 1370px;
+top: 1325px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 16px;
+gap: 10px;
+
+position: absolute;
+width: 161px;
+height: 44px;
+left: 330px;
+top: 224px;
+
+background: #FFFFFF;
+border-radius: 28px;
+
+
+/* 🦆 icon "api integration connection" */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 35%;
+right: 35%;
+top: 35%;
+bottom: 35%;
+
+border: 3.672px solid #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 40%;
+right: 40%;
+top: 0%;
+bottom: 80%;
+
+border: 3.672px solid #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 80%;
+right: 0%;
+top: 40%;
+bottom: 40%;
+
+border: 3.672px solid #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 80%;
+top: 40%;
+bottom: 40%;
+
+border: 3.672px solid #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 40%;
+right: 40%;
+top: 80%;
+bottom: 0%;
+
+border: 3.672px solid #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 50%;
+right: 50%;
+top: 20%;
+bottom: 65%;
+
+border: 3.672px solid #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 65%;
+right: 20%;
+top: 50%;
+bottom: 50%;
+
+border: 3.672px solid #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 50%;
+right: 50%;
+top: 65%;
+bottom: 20%;
+
+border: 3.672px solid #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 20%;
+right: 65%;
+top: 50%;
+bottom: 50%;
+
+border: 3.672px solid #000000;
+
+
+/* 콘텐츠 통합 */
+
+width: 95px;
+height: 24px;
+
+/* Button/Cont
+
+Contents
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 16px;
+gap: 10px;
+
+position: absolute;
+width: 155.04px;
+height: 44px;
+left: 511px;
+top: 224px;
+
+background: #FFFFFF;
+border-radius: 28px;
+
+
+/* 🦆 emoji "popcorn" */
+
+width: 23.04px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 29.41%;
+bottom: 0%;
+
+background: #E1E8ED;
+
+
+/* Vector */
+
+position: absolute;
+left: 10.7%;
+right: 10.61%;
+top: 47.06%;
+bottom: 0%;
+
+background: #DA2F47;
+
+
+/* Vector */
+
+position: absolute;
+left: 10.7%;
+right: 10.61%;
+top: 47.06%;
+bottom: 47.06%;
+
+background: #99AAB5;
+opacity: 0.6;
+
+
+/* Vector */
+
+position: absolute;
+left: 7.15%;
+right: 7.05%;
+top: 0%;
+bottom: 61.76%;
+
+background: #FFD983;
+
+
+/* Group */
+
+position: absolute;
+left: 13.27%;
+right: 10.12%;
+top: 8.82%;
+bottom: 64.71%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 77.63%;
+right: 16.24%;
+top: 17.65%;
+bottom: 76.47%;
+
+background: #FFAC33;
+
+
+/* Vector */
+
+position: absolute;
+left: 65.37%;
+right: 25.44%;
+top: 8.82%;
+bottom: 82.35%;
+
+background: #FFAC33;
+
+
+/* Vector */
+
+position: absolute;
+left: 28.6%;
+right: 65.27%;
+top: 14.71%;
+bottom: 79.41%;
+
+background: #FFAC33;
+
+
+/* Vector */
+
+position: absolute;
+left: 13.27%;
+right: 10.12%;
+top: 17.65%;
+bottom: 64.71%;
+
+background: #FFAC33;
+
+
+/* Vector */
+
+position: absolute;
+left: 7.15%;
+right: 7.05%;
+top: 35.29%;
+bottom: 58.82%;
+
+background: #FFFFFF;
+
+
+/* 박스오피스 */
+
+width: 90px;
+height: 24px;
+
+/* Button/Cont
+
+Contents
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 16px;
+gap: 10px;
+
+position: absolute;
+width: 139px;
+height: 44px;
+left: 686px;
+top: 224px;
+
+background: #FFFFFF;
+border-radius: 28px;
+
+
+/* 🦆 icon "Apps Netflix" */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 2.07%;
+right: 0%;
+top: 2.07%;
+bottom: 0%;
+
+background: rgba(0, 0, 0, 0.098039);
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 2.07%;
+top: 0%;
+bottom: 2.07%;
+
+background: #333333;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.99%;
+right: 2.14%;
+top: 21.19%;
+bottom: 2.13%;
+
+background: rgba(0, 0, 0, 0.2);
+
+
+/* Vector */
+
+position: absolute;
+left: 29.99%;
+right: 56.81%;
+top: 20.79%;
+bottom: 22.86%;
+
+background: #D30B26;
+
+
+/* Vector */
+
+position: absolute;
+left: 54.75%;
+right: 32.05%;
+top: 20.94%;
+bottom: 22.86%;
+
+background: #A80720;
+
+
+/* Vector */
+
+position: absolute;
+left: 29.99%;
+right: 32.05%;
+top: 20.94%;
+bottom: 22.86%;
+
+background: #FC0E2D;
+
+
+/* 넷플릭스 */
+
+width: 73px;
+height: 24px;
+
+/* Button/Cont
+
+Contents
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 16px;
+gap: 10px;
+
+position: absolute;
+width: 154.17px;
+height: 44px;
+left: 845px;
+top: 224px;
+
+background: #FFFFFF;
+border-radius: 28px;
+
+
+/* 🦆 icon "disneyplus" */
+
+width: 44.17px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Group */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 36.87%;
+bottom: 0%;
+
+background: #000000;
+
+
+/* Vector */
+
+position: absolute;
+left: 17.39%;
+right: 8.17%;
+top: 0%;
+bottom: 50.36%;
+
+background: linear-gradient(272.8deg, #101C50 0.07%, #0D267A 22.88%, #085AA4 48.1%, #058BBF 63.36%, #B1FFFF 96.7%);
+
+
+/* 디즈니+ */
+
+width: 68px;
+height: 24px;
+
+/* Button/Cont
+
+Contents
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 80.21%;
+right: 17.71%;
+top: 3.25%;
+bottom: 95.75%;
+
+background: #FFFFFF;

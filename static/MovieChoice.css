@@ -1,0 +1,1531 @@
+/* Movie Choice */
+
+position: relative;
+width: 1920px;
+height: 4200px;
+
+background: #000A23;
+
+
+/* 범죄도시2 */
+
+position: absolute;
+width: 153px;
+height: 44px;
+left: 600px;
+top: 216px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 9 */
+
+position: absolute;
+width: 252px;
+height: 40px;
+left: 340px;
+top: 1382px;
+
+background: #F05650;
+border-radius: 20px 0px 0px 20px;
+
+
+/* Rectangle 10 */
+
+position: absolute;
+width: 1008px;
+height: 40px;
+left: 592px;
+top: 1382px;
+
+background: #28D485;
+border-radius: 0px 20px 20px 0px;
+
+
+/* 긍정 · 부정 지수 */
+
+position: absolute;
+width: 193px;
+height: 36px;
+left: 340px;
+top: 1330px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 별로예요 20% */
+
+position: absolute;
+width: 118px;
+height: 24px;
+left: 340px;
+top: 1429px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 좋아요 80% */
+
+position: absolute;
+width: 101px;
+height: 24px;
+left: 1499px;
+top: 1429px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 콘텐츠 통합 1위 · 박스오피스 1위 */
+
+position: absolute;
+width: 397px;
+height: 36px;
+left: 340px;
+top: 132px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 작품 정보 */
+
+position: absolute;
+width: 116px;
+height: 36px;
+left: 600px;
+top: 393px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 모든 리뷰 */
+
+position: absolute;
+width: 116px;
+height: 36px;
+left: 340px;
+top: 3150px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* “느낌 오지? 이 놈 잡아야 하는 거” 가리봉동 소탕작전 후 4년 뒤, 금천서 강력반은 베트남으로 도주한 용의자를 인도받아 오라는 미션을 받는다. 괴물형사 ‘마석도’(마동석)와 ‘전일만’(최귀화) 반장은 현지 용의자에게서 수상함을 느끼고, 그의 뒤에 무자비한 악행을 벌이는 ‘강해상’(손석구)이 있음을 알게 된다. ‘마석도’와 금천서 강력반은 한국과 베트남을 오가며 역대급 범죄를 저지르는 ‘강해상’을 본격적으로 쫓기 시작하는데... 나쁜 놈들 잡는 데 국경 없다! 통쾌하고 화끈한 범죄 소탕 작전이 다시 펼쳐진다! */
+
+position: absolute;
+width: 980px;
+height: 200px;
+left: 600px;
+top: 469px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* the Roundup · 2022 */
+
+position: absolute;
+width: 187px;
+height: 24px;
+left: 600px;
+top: 267px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 출연진 */
+
+position: absolute;
+width: 82px;
+height: 36px;
+left: 340px;
+top: 780px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 마동석 주연 | 마석도 */
+
+position: absolute;
+width: 79px;
+height: 41px;
+left: 430px;
+top: 870px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 손석구 주연 | 강해상 */
+
+position: absolute;
+width: 79px;
+height: 41px;
+left: 690px;
+top: 870px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 최귀화 조연 | 전일만 */
+
+position: absolute;
+width: 79px;
+height: 41px;
+left: 950px;
+top: 870px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 박지환 조연 | 장이수 */
+
+position: absolute;
+width: 79px;
+height: 41px;
+left: 1210px;
+top: 870px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 허동원 조연 | 오동균 */
+
+position: absolute;
+width: 79px;
+height: 41px;
+left: 1470px;
+top: 870px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 하준 조연 | 강홍석 */
+
+position: absolute;
+width: 79px;
+height: 41px;
+left: 430px;
+top: 970px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 정재광 조연 | 김상훈 */
+
+position: absolute;
+width: 79px;
+height: 41px;
+left: 690px;
+top: 970px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 남문철 조연 | 최춘백 */
+
+position: absolute;
+width: 79px;
+height: 41px;
+left: 950px;
+top: 970px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 박지영 조연 | 김인숙 */
+
+position: absolute;
+width: 79px;
+height: 41px;
+left: 1210px;
+top: 970px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 이주원 조연 | 박영사 */
+
+position: absolute;
+width: 79px;
+height: 41px;
+left: 1470px;
+top: 970px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 음문석 조연 | 장기철 */
+
+position: absolute;
+width: 79px;
+height: 41px;
+left: 430px;
+top: 1070px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 키워드 리뷰 */
+
+position: absolute;
+width: 143px;
+height: 36px;
+left: 340px;
+top: 1660px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 내용이 재밌어요 */
+
+position: absolute;
+width: 131px;
+height: 24px;
+left: 340px;
+top: 1760px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 배우들의 연기가 좋아요 */
+
+position: absolute;
+width: 189px;
+height: 24px;
+left: 340px;
+top: 1810px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 액션이 시원해요 */
+
+position: absolute;
+width: 131px;
+height: 24px;
+left: 340px;
+top: 1860px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 유머코드가 좋아요 */
+
+position: absolute;
+width: 149px;
+height: 24px;
+left: 340px;
+top: 1910px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 18 */
+
+position: absolute;
+width: 574px;
+height: 24px;
+left: 650px;
+top: 1760px;
+
+background: #28D485;
+border-radius: 6px;
+
+
+/* Rectangle 19 */
+
+position: absolute;
+width: 414px;
+height: 24px;
+left: 650px;
+top: 1810px;
+
+background: #28D485;
+border-radius: 6px;
+
+
+/* Rectangle 20 */
+
+position: absolute;
+width: 389px;
+height: 24px;
+left: 650px;
+top: 1860px;
+
+background: #28D485;
+border-radius: 6px;
+
+
+/* Rectangle 21 */
+
+position: absolute;
+width: 312px;
+height: 24px;
+left: 650px;
+top: 1910px;
+
+background: #28D485;
+border-radius: 6px;
+
+
+/* 574 */
+
+position: absolute;
+width: 36px;
+height: 24px;
+left: 1300px;
+top: 1760px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 414 */
+
+position: absolute;
+width: 36px;
+height: 24px;
+left: 1300px;
+top: 1810px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 389 */
+
+position: absolute;
+width: 38px;
+height: 24px;
+left: 1300px;
+top: 1860px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 312 */
+
+position: absolute;
+width: 35px;
+height: 24px;
+left: 1300px;
+top: 1910px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: right;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 범죄도시2 1 */
+
+position: absolute;
+width: 240px;
+height: 340px;
+left: 320px;
+top: 200px;
+
+background: url(범죄도시2);
+
+
+/* 마동석 1 */
+
+position: absolute;
+width: 80px;
+height: 80px;
+left: 340px;
+top: 850px;
+
+background: url(마동석.png);
+
+
+/* 손석구 1 */
+
+position: absolute;
+width: 80px;
+height: 80px;
+left: 600px;
+top: 850px;
+
+background: url(손석구.png);
+
+
+/* 최귀화 1 */
+
+position: absolute;
+width: 80px;
+height: 80px;
+left: 860px;
+top: 850px;
+
+background: url(최귀화.png);
+
+
+/* 박지환 1 */
+
+position: absolute;
+width: 80px;
+height: 80px;
+left: 1120px;
+top: 850px;
+
+background: url(박지환.png);
+
+
+/* 허동원 1 */
+
+position: absolute;
+width: 80px;
+height: 80px;
+left: 1380px;
+top: 850px;
+
+background: url(허동원.png);
+
+
+/* 하준 1 */
+
+position: absolute;
+width: 80px;
+height: 80px;
+left: 340px;
+top: 950px;
+
+background: url(하준.png);
+
+
+/* 정재광 1 */
+
+position: absolute;
+width: 80px;
+height: 80px;
+left: 600px;
+top: 950px;
+
+background: url(정재광.png);
+
+
+/* 남문철 1 */
+
+position: absolute;
+width: 80px;
+height: 80px;
+left: 860px;
+top: 950px;
+
+background: url(남문철.png);
+
+
+/* 박지영 1 */
+
+position: absolute;
+width: 80px;
+height: 80px;
+left: 1120px;
+top: 950px;
+
+background: url(박지영.png);
+
+
+/* 음문석 1 */
+
+position: absolute;
+width: 80px;
+height: 80px;
+left: 340px;
+top: 1050px;
+
+background: url(음문석.png);
+
+
+/* 이주원 1 */
+
+position: absolute;
+width: 80px;
+height: 80px;
+left: 1380px;
+top: 950px;
+
+background: url(이주원.png);
+
+
+/* 긍정 리뷰 */
+
+position: absolute;
+width: 116px;
+height: 36px;
+left: 340px;
+top: 2120px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 부정 리뷰 */
+
+position: absolute;
+width: 116px;
+height: 36px;
+left: 980px;
+top: 2120px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 36px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 27 */
+
+position: absolute;
+width: 600px;
+height: 200px;
+left: 340px;
+top: 2230px;
+
+background: #0D1D45;
+border-radius: 10px;
+
+
+/* Rectangle 28 */
+
+position: absolute;
+width: 600px;
+height: 220px;
+left: 340px;
+top: 2480px;
+
+background: #0D1D45;
+border-radius: 10px;
+
+
+/* Rectangle 29 */
+
+position: absolute;
+width: 600px;
+height: 250px;
+left: 340px;
+top: 2750px;
+
+background: #0D1D45;
+border-radius: 10px;
+
+
+/* 아는맛 이미 먹어본 맛이지만 맛있다마동석의 타격감은 여전히 시원하고, 요즘 물오른 손석구씨는 장췐 못지않게 서늘하다물론 손석구씨에 대한 팬심으로 별점 넉넉히 쓴건 안비밀 */
+
+position: absolute;
+width: 520px;
+height: 96px;
+left: 360px;
+top: 2840px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* Doo */
+
+position: absolute;
+width: 38px;
+height: 24px;
+left: 360px;
+top: 2780px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 33 */
+
+position: absolute;
+width: 600px;
+height: 200px;
+left: 340px;
+top: 3260px;
+
+background: #0D1D45;
+border-radius: 10px;
+
+
+/* 어떤 상황에서도 그의 활약을 조바심 없이 즐길 수 있는 아는 맛. */
+
+position: absolute;
+width: 498px;
+height: 24px;
+left: 360px;
+top: 3360px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 이동진 평론가 */
+
+position: absolute;
+width: 113px;
+height: 24px;
+left: 360px;
+top: 3290px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 36 */
+
+position: absolute;
+width: 600px;
+height: 220px;
+left: 980px;
+top: 3510px;
+
+background: #0D1D45;
+border-radius: 10px;
+
+
+/* "이유가 어딨어. 그냥 잡는거야" 이 대사처럼 단순하지만 명쾌하고 시원시원하다. */
+
+position: absolute;
+width: 382px;
+height: 48px;
+left: 1000px;
+top: 3610px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 박준준 */
+
+position: absolute;
+width: 55px;
+height: 24px;
+left: 1000px;
+top: 3540px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 35 */
+
+position: absolute;
+width: 600px;
+height: 220px;
+left: 340px;
+top: 3510px;
+
+background: #0D1D45;
+border-radius: 10px;
+
+
+/* 다시 돌아온 여름을 맞이하는 시원한 수박(마저 터트려 버릴 것) 같은 영화. */
+
+position: absolute;
+width: 499px;
+height: 48px;
+left: 360px;
+top: 3610px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 뭅먼트 */
+
+position: absolute;
+width: 55px;
+height: 24px;
+left: 360px;
+top: 3540px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 34 */
+
+position: absolute;
+width: 600px;
+height: 200px;
+left: 980px;
+top: 3260px;
+
+background: #0D1D45;
+border-radius: 10px;
+
+
+/* 주먹이 맛있고 알통이 친절해요 */
+
+position: absolute;
+width: 247px;
+height: 24px;
+left: 1000px;
+top: 3360px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 뀨뀨 */
+
+position: absolute;
+width: 37px;
+height: 24px;
+left: 1000px;
+top: 3290px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 32 */
+
+position: absolute;
+width: 600px;
+height: 250px;
+left: 980px;
+top: 2750px;
+
+background: #0D1D45;
+border-radius: 10px;
+
+
+/* 오락영화로는 좋았겠으나, 마치 소시오패스가 만든 영화로 느껴진다. 각본의 수준은 아쉬웠으며 인신매매라는 범죄와 피해자들을 다루는 방식에 있어서는 오락영화라고 하여도 어느 선까지는 유머 수단으로 대입하는 문법들로 축약하지 말았어야 하지 않았나. */
+
+position: absolute;
+width: 539px;
+height: 96px;
+left: 1000px;
+top: 2840px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 준원 */
+
+position: absolute;
+width: 37px;
+height: 24px;
+left: 1000px;
+top: 2780px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 타격감 좋고! 개그 타율 좋고! 8편까지 기획되었다던데 마석도 캐릭터와 개성있는 빌런만 쭉 나와주면 88편까지 나와도 재밌을 것 같다. */
+
+position: absolute;
+width: 562px;
+height: 48px;
+left: 360px;
+top: 2580px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 크리스 */
+
+position: absolute;
+width: 55px;
+height: 24px;
+left: 360px;
+top: 2510px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 31 */
+
+position: absolute;
+width: 600px;
+height: 220px;
+left: 980px;
+top: 2480px;
+
+background: #0D1D45;
+border-radius: 10px;
+
+
+/* 타격감과 ^참교육^에만 초점을 둔듯한 영화. 한 시간 내내 칼로 철퍽철퍽 찌르는 소리를 듣다 포기. */
+
+position: absolute;
+width: 489px;
+height: 48px;
+left: 1000px;
+top: 2580px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 뽀미2 */
+
+position: absolute;
+width: 49px;
+height: 24px;
+left: 1000px;
+top: 2510px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* MCU 길가메시를 넘어버린 K-HERO 마석도의 발현. */
+
+position: absolute;
+width: 417px;
+height: 24px;
+left: 360px;
+top: 2330px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 존맥클레인 */
+
+position: absolute;
+width: 90px;
+height: 24px;
+left: 360px;
+top: 2260px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 30 */
+
+position: absolute;
+width: 600px;
+height: 200px;
+left: 980px;
+top: 2230px;
+
+background: #0D1D45;
+border-radius: 10px;
+
+
+/* 못 만든 영화는 아니지만, 모든 면에서 1편의 하위호환 같다. */
+
+position: absolute;
+width: 468px;
+height: 24px;
+left: 1000px;
+top: 2330px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* 베이더 */
+
+position: absolute;
+width: 55px;
+height: 24px;
+left: 1000px;
+top: 2260px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+
+/* + 더 많은 리뷰 보기 */
+
+position: absolute;
+width: 157px;
+height: 24px;
+left: 1423px;
+top: 3156px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+text-transform: capitalize;
+
+color: #FFFFFF;
+

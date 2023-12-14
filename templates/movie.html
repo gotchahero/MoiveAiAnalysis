@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Reviews</title>
+    <style>
+        /* 스타일 정의 */
+        .review-container {
+        background: #0D1D45;
+        border-radius: 10px;
+        color: white;
+        font-size: 20px;
+        font-family: Inter;
+        font-weight: 600;
+        text-transform: capitalize;
+        word-wrap: break-word;
+        padding: 10px;
+        margin-bottom: 20px;
+        overflow-y: auto; /* 추가: 스크롤바 */
+        max-height: 200px; /* 추가: 최대 높이 설정 */
+        
+        }
+        .arrow-button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        font-size: 24px; /* 화살표 크기 조정 */
+        color: #fff; /* 화살표 색상 */
+        /* 추가 스타일링 */
+        }
+
+        .page-info {
+            color: white;
+            text-align: center;
+            margin-top: 10px;
+        }
+        .cast-info {
+            display: flex; /* 가로로 나열하기 위해 flex 사용 */
+            justify-content: space-between; /* 요소 사이의 간격을 넓힘 */
+        }
+        .actor {
+            text-align: center; /* 내용 가운데 정렬 */
+        }
+        
+        /* 필요한 추가 스타일 */
+    </style>
+</head>
+<body style="background: #000A23; color: white; font-family: Inter;">
+
+      <div class="MovieChoice" style="width: 1920px; height: 4200px; position: relative;">
+          <!-- 기존 HTML 콘텐츠 -->
+  <div class="MovieChoice" style="width: 1920px; height: 4200px; position: relative; background: #000A23">
+    <div class="Rank" style="left: 320px; top: 132px; position: absolute; text-align: center; color: white; font-size: 30px; font-family: Inter; font-weight: 600; text-transform: capitalize; word-wrap: break-word">콘텐츠 통합 1위 · 박스오피스 1위</div>
+    <img class="21" style="width: 240px; height: 340px; left: 320px; top: 200px; position: absolute" src="static\images\movies\1_범죄도시2.jpg" />
+    <div class="Name_kor" style="left: 600px; top: 216px; position: absolute; text-align: center; color: white; font-size: 36px; font-family: Inter; font-weight: 600; text-transform: capitalize; word-wrap: break-word">범죄도시2</div>
+    <div class="Name_en" style="left: 600px; top: 267px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Inter; font-weight: 600; text-transform: capitalize; word-wrap: break-word">the Roundup · 2022</div>
+    <div style="left: 600px; top: 393px; position: absolute; text-align: center; color: white; font-size: 30px; font-family: Inter; font-weight: 600; text-transform: capitalize; word-wrap: break-word">작품 정보</div>
+    <div style="left: 340px; top: 3150px; position: absolute; text-align: center; color: white; font-size: 30px; font-family: Inter; font-weight: 600; text-transform: capitalize; word-wrap: break-word">모든 리뷰</div>
+    <div class="scripts" style="width: 980px; height: 200px; left: 600px; top: 469px; position: absolute; color: white; font-size: 20px; font-family: Inter; font-weight: 600; text-transform: capitalize; word-wrap: break-word">“느낌 오지? 이 놈 잡아야 하는 거”<br/><br/>가리봉동 소탕작전 후 4년 뒤, 금천서 강력반은 베트남으로 도주한 용의자를 인도받아 오라는 미션을 받는다.<br/>괴물형사 ‘마석도’(마동석)와 ‘전일만’(최귀화) 반장은 현지 용의자에게서 수상함을 느끼고, 그의 뒤에 무자비한 악행을 벌이는 ‘강해상’(손석구)이 있음을 알게 된다.<br/>‘마석도’와 금천서 강력반은 한국과 베트남을 오가며 역대급 범죄를 저지르는 ‘강해상’을 본격적으로 쫓기 시작하는데...<br/><br/>나쁜 놈들 잡는 데 국경 없다! 통쾌하고 화끈한 범죄 소탕 작전이 다시 펼쳐진다!</div>
+    <!-- 출연진 정보 및 이미지 생성 -->
+    <div class="cast-info">
+        {% for actor in cast_info %}
+        <div class="actor" style="position: absolute; left: {{ 340 + (loop.index - 1) % 5 * 300 }}px; top: {{ (loop.index - 1) // 5 * 230 + 800 }}px;">
+            <h2>{{ actor.name }}</h2>
+            <img src="{{ actor.image_url }}" alt="{{ actor.name }} Image" style="width: 116px; height: 168px;" />
+        </div>
+        {% endfor %}
+    </div>
+    
+    <div style="left: 340px; top: 1380px; position: absolute; text-align: center; color: white; font-size: 30px; font-family: Inter; font-weight: 600; text-transform: capitalize; word-wrap: break-word">긍정 · 부정 지수</div>
+    <div class="bar_worse" style="left: 340px; top: 1479px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Inter; font-weight: 600; text-transform: capitalize; word-wrap: break-word">별로예요 <span id="negative_percentage">{{ negative_percentage }}%</span></div>
+    <div class="bar_good" style="left: 1499px; top: 1479px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Inter; font-weight: 600; text-transform: capitalize; word-wrap: break-word">좋아요 <span id="positive_percentage">{{ positive_percentage }}%</span></div>
+    
+    <!-- worse_gauge 및 good_gauge 컨테이너 -->
+    <div class="gauge-container" style="position: relative; width: 1260px; height: 40px; left: 340px; top: 1432px;">
+        <div class="worse_gauge" style="height: 40px; position: absolute; left: 0; width: calc({{ negative_percentage }}%); background: #F05650; border-top-left-radius: 20px; border-bottom-left-radius: 20px;"></div>
+        <div class="good_gauge" style="height: 40px; position: absolute; left: calc({{ negative_percentage }}%); width: calc({{ positive_percentage }}%); background: #28D485; border-top-right-radius: 20px; border-bottom-right-radius: 20px;"></div>
+    </div>
+    
+    <!-- JavaScript 코드를 추가하여 퍼센트 업데이트 -->
+    <script>
+        function updatePercentage() {
+            // Flask 앱에서 전달한 퍼센트 값을 가져와서 엘리먼트에 업데이트
+            var negativePercentage = {{ negative_percentage }};
+            var positivePercentage = {{ positive_percentage }};
+            document.getElementById('negative_percentage').textContent = negativePercentage + "%";
+            document.getElementById('positive_percentage').textContent = positivePercentage + "%";
+    
+            // 퍼센트에 따라 퍼센트 바 너비 업데이트
+            var gaugeContainer = document.querySelector('.gauge-container');
+            var negativeBar = document.querySelector('.worse_gauge');
+            var positiveBar = document.querySelector('.good_gauge');
+            negativeBar.style.width = negativePercentage + "%";
+            positiveBar.style.width = positivePercentage + "%";
+        }
+    
+        // 페이지 로드시 한 번 업데이트
+        updatePercentage();
+    </script>
+
+    <div style="left: 340px; top: 1660px; position: absolute; text-align: center; color: white; font-size: 30px; font-family: Inter; font-weight: 600; text-transform: capitalize; word-wrap: break-word">리뷰 키워드</div>
+    <div style="left: 340px; top: 1760px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Inter; font-weight: 600; text-transform: capitalize; word-wrap: break-word">내용이 재밌어요</div>
+    <div style="left: 340px; top: 1810px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Inter; font-weight: 600; text-transform: capitalize; word-wrap: break-word">배우들의 연기가 좋아요</div>
+    <div style="left: 340px; top: 1860px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Inter; font-weight: 600; text-transform: capitalize; word-wrap: break-word">액션이 시원해요</div>
+    <div style="left: 340px; top: 1910px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Inter; font-weight: 600; text-transform: capitalize; word-wrap: break-word">유머코드가 좋아요</div>
+    <div class="Rectangle18" style="width: 574px; height: 24px; left: 650px; top: 1760px; position: absolute; background: #28D485; border-radius: 6px"></div>
+    <div class="Rectangle19" style="width: 414px; height: 24px; left: 650px; top: 1810px; position: absolute; background: #28D485; border-radius: 6px"></div>
+    <div class="Rectangle20" style="width: 389px; height: 24px; left: 650px; top: 1860px; position: absolute; background: #28D485; border-radius: 6px"></div>
+    <div class="Rectangle21" style="width: 312px; height: 24px; left: 650px; top: 1910px; position: absolute; background: #28D485; border-radius: 6px"></div>
+    <div style="left: 1300px; top: 1760px; position: absolute; text-align: right; color: white; font-size: 20px; font-family: Inter; font-weight: 600; text-transform: capitalize; word-wrap: break-word">152</div>
+    <div style="left: 1300px; top: 1810px; position: absolute; text-align: right; color: white; font-size: 20px; font-family: Inter; font-weight: 600; text-transform: capitalize; word-wrap: break-word">102</div>
+    <div style="left: 1300px; top: 1860px; position: absolute; text-align: right; color: white; font-size: 20px; font-family: Inter; font-weight: 600; text-transform: capitalize; word-wrap: break-word">86</div>
+    <div style="left: 1300px; top: 1910px; position: absolute; text-align: right; color: white; font-size: 20px; font-family: Inter; font-weight: 600; text-transform: capitalize; word-wrap: break-word">72</div>
+
+    <div style="position: absolute; top: 2000px; left: 340px;">
+        <div style="color: white; text-align: center; font-size: 24px; margin-bottom: 10px;">긍정 워드클라우드</div>
+        <img src="static/images/wordcloud/positive_wordcloud.jpg" alt="Positive Word Cloud" style="width: 600px; height: 400px;">
+    </div>
+    <div style="position: absolute; top: 2000px; left: 980px;">
+        <div style="color: white; text-align: center; font-size: 24px; margin-bottom: 10px;">부정 워드클라우드</div>
+        <img src="static/images/wordcloud/negative_wordcloud.jpg" alt="Negative Word Cloud" style="width: 600px; height: 400px;">
+    </div>      
+
+    <div id="positive-reviews" style="left: 340px; top: 2500px; position: absolute;">
+        <div style="text-align: center; font-size: 30px; font-weight: 580;">긍정 리뷰</div>
+        <!-- 긍정 리뷰 반복 -->
+        {% for review in positive_reviews %}
+        {% if review.strip() != "" %}
+        <div class="review-container" style="left: 0; width: 580px; height: 200px;">
+            {{ review }}
+        </div>
+        {% endif %}
+        {% endfor %}
+        <div class="page-info" id="positive-page-info"></div>
+        <button class="arrow-button" onclick="changePage('positive', -1)">&#10094;</button>
+        <button class="arrow-button" onclick="changePage('positive', 1)">&#10095;</button>
+    </div>
+    
+    
+    <!-- 부정 리뷰 섹션 -->
+    <div id="negative-reviews" style="left: 980px; top: 2500px; position: absolute;">
+        <div style="text-align: center; font-size: 30px; font-weight: 600;">부정 리뷰</div>
+        <!-- 부정 리뷰 반복 -->
+        {% for review in negative_reviews %}
+        {% if review.strip() != "" %}
+        <div class="review-container" style="left: 0; width: 600px; height: 200px;">
+            {{ review }}
+        </div>
+        {% endif %}
+        {% endfor %}
+        <div class="page-info" id="negative-page-info"></div>
+        <button class="arrow-button" onclick="changePage('negative', -1)">&#10094;</button>
+        <button class="arrow-button" onclick="changePage('negative', 1)">&#10095;</button>
+    </div>
+    <script>
+    var currentPage = {
+        positive: 1,
+        negative: 1
+    };
+    var reviewsPerPage = 10;
+
+    function updatePageInfo(reviewType, currentPage, maxPage) {
+    var pageInfo = document.getElementById(reviewType + '-page-info');
+    pageInfo.textContent = `현재 페이지: ${currentPage} / 전체 페이지: ${maxPage}`;
+}
+
+    function changePage(reviewType, direction) {
+        var reviews = document.querySelectorAll('#' + reviewType + '-reviews .review-container');
+        var maxPage = Math.ceil(reviews.length / reviewsPerPage);
+    
+        currentPage[reviewType] += direction;
+    
+        // 페이지 범위 유지
+        if (currentPage[reviewType] < 1) currentPage[reviewType] = 1;
+        if (currentPage[reviewType] > maxPage) currentPage[reviewType] = maxPage;
+    
+        // 리뷰 표시 업데이트
+        var start = (currentPage[reviewType] - 1) * reviewsPerPage;
+        var end = start + reviewsPerPage;
+        reviews.forEach((review, index) => {
+            review.style.display = (index >= start && index < end) ? 'block' : 'none';
+        });
+        // 페이지 정보 업데이트
+        updatePageInfo(reviewType, currentPage[reviewType], maxPage);
+    }
+    
+    // 초기 페이지 설정
+    changePage('positive', 0);
+    changePage('negative', 0);
+    </script>  
+
+        <!-- 기타 HTML 콘텐츠 -->
+    
+    </div>
+
+</body>
+</html>

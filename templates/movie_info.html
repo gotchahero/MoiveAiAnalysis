@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+  .movie-posters {
+      position: relative;
+      width: 1920px;
+      /* 필요한 경우 높이 조정 */
+  }
+  .movie {
+      position: absolute;
+      text-align: center;
+      color: white;
+  }
+  .movie img {
+      width: 240px;
+      height: 340px;
+  }
+  .movie-title {
+      font-size: 17px;
+      font-family: Inter;
+      font-weight: 400;
+  }
+  /* 추가 스타일 */
+</style>
+
+<div class="FirstPage" style="width: 2520px; height: 4200px; position: relative; background: #000A23">
+  <div class="Top10" style="width: 332px; height: 48px; left: 794px; top: 126px; position: absolute; color: white; font-size: 35px; font-family: Inter; font-weight: 600; word-wrap: break-word">오늘의 TOP10 차트</div>
+  <div style="width: 344px; height: 44px; left: 300px; top: 428px; position: absolute; text-align: center; color: white; font-size: 30px; font-family: Inter; font-weight: 600; text-transform: capitalize; word-wrap: break-word">오늘의 박스오피스 랭킹</div>
+  <body>
+    <!-- 동적으로 생성되는 영화 포스터 및 제목 -->
+    <div class="movie-posters">
+      {% for movie in movies %}
+      <div class="movie" style="position: absolute; left: {{ movie.left }}px; top: {{ movie.top }}px;">
+          <!-- 영화 제목을 URL 경로로 사용 -->
+          <a href="/{{ movie.title | url_encode }}">
+              <img src="{{ movie.image_url }}" alt="{{ movie.title }}" style="width: 240px; height: 340px;" />
+              <div style="color: white; font-size: 17px; font-family: Inter; font-weight: 400;">{{ movie.title }}</div>
+          </a>
+      </div>
+      {% endfor %}
+  </div>
+  <div class="Button" style="padding-left: 16px; padding-right: 16px; padding-top: 10px; padding-bottom: 10px; left: 330px; top: 224px; position: absolute; background: white; border-radius: 28px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+    <div class="IconApiIntegrationConnection" style="width: 24px; height: 24px; justify-content: center; align-items: center; display: flex">
+      <div class="Group" style="width: 24px; height: 24px; position: relative">
+        <div class="Vector" style="width: 7.20px; height: 7.20px; left: 8.40px; top: 8.40px; position: absolute; border: 3.67px black solid"></div>
+        <div class="Vector" style="width: 4.80px; height: 4.80px; left: 9.60px; top: 0px; position: absolute; border: 3.67px black solid"></div>
+        <div class="Vector" style="width: 4.80px; height: 4.80px; left: 19.20px; top: 9.60px; position: absolute; border: 3.67px black solid"></div>
+        <div class="Vector" style="width: 4.80px; height: 4.80px; left: 0px; top: 9.60px; position: absolute; border: 3.67px black solid"></div>
+        <div class="Vector" style="width: 4.80px; height: 4.80px; left: 9.60px; top: 19.20px; position: absolute; border: 3.67px black solid"></div>
+        <div class="Vector" style="width: 0px; height: 3.60px; left: 12px; top: 4.80px; position: absolute; border: 3.67px black solid"></div>
+        <div class="Vector" style="width: 3.60px; height: 0px; left: 15.60px; top: 12px; position: absolute; border: 3.67px black solid"></div>
+        <div class="Vector" style="width: 0px; height: 3.60px; left: 12px; top: 15.60px; position: absolute; border: 3.67px black solid"></div>
+        <div class="Vector" style="width: 3.60px; height: 0px; left: 4.80px; top: 12px; position: absolute; border: 3.67px black solid"></div>
+      </div>
+    </div>
+    <div style="text-align: center; color: black; font-size: 20px; font-family: Inter; font-weight: 600; text-transform: capitalize; word-wrap: break-word">콘텐츠 통합</div>
+  </div>
+  <div class="Button" style="padding-left: 16px; padding-right: 16px; padding-top: 10px; padding-bottom: 10px; left: 511px; top: 224px; position: absolute; background: white; border-radius: 28px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+    <div class="EmojiPopcorn" style="width: 23.04px; height: 24px; position: relative">
+      <div class="Vector" style="width: 23.04px; height: 16.94px; left: 0px; top: 7.06px; position: absolute; background: #E1E8ED"></div>
+      <div class="Vector" style="width: 18.13px; height: 12.71px; left: 2.46px; top: 11.29px; position: absolute; background: #DA2F47"></div>
+      <div class="Vector" style="width: 18.13px; height: 1.41px; left: 2.46px; top: 11.29px; position: absolute; opacity: 0.60; background: #99AAB5"></div>
+      <div class="Vector" style="width: 19.76px; height: 9.18px; left: 1.65px; top: 0px; position: absolute; background: #FFD983"></div>
+      <div class="Group" style="width: 17.65px; height: 6.35px; left: 3.06px; top: 2.12px; position: absolute">
+        <div class="Vector" style="width: 1.41px; height: 1.41px; left: 14.82px; top: 2.12px; position: absolute; background: #FFAC33"></div>
+        <div class="Vector" style="width: 2.12px; height: 2.12px; left: 12px; top: -0px; position: absolute; background: #FFAC33"></div>
+        <div class="Vector" style="width: 1.41px; height: 1.41px; left: 3.53px; top: 1.41px; position: absolute; background: #FFAC33"></div>
+        <div class="Vector" style="width: 17.65px; height: 4.24px; left: 0px; top: 2.12px; position: absolute; background: #FFAC33"></div>
+      </div>
+      <div class="Vector" style="width: 19.76px; height: 1.41px; left: 1.65px; top: 8.47px; position: absolute; background: white"></div>
+    </div>
+    <div style="text-align: center; color: black; font-size: 20px; font-family: Inter; font-weight: 600; text-transform: capitalize; word-wrap: break-word">박스오피스</div>
+  </div>
+  <div class="Button" style="padding-left: 16px; padding-right: 16px; padding-top: 10px; padding-bottom: 10px; left: 686px; top: 224px; position: absolute; background: white; border-radius: 28px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+    <div class="IconAppsNetflix" style="width: 24px; height: 24px; position: relative">
+      <div class="Vector" style="width: 23.50px; height: 23.50px; left: 0.50px; top: 0.50px; position: absolute; background: rgba(0, 0, 0, 0.10)"></div>
+      <div class="Vector" style="width: 23.50px; height: 23.50px; left: 0px; top: 0px; position: absolute; background: #333333"></div>
+      <div class="Vector" style="width: 16.29px; height: 18.40px; left: 7.20px; top: 5.09px; position: absolute; background: rgba(0, 0, 0, 0.20)"></div>
+      <div class="Vector" style="width: 3.17px; height: 13.52px; left: 7.20px; top: 4.99px; position: absolute; background: #D30B26"></div>
+      <div class="Vector" style="width: 3.17px; height: 13.49px; left: 13.14px; top: 5.03px; position: absolute; background: #A80720"></div>
+      <div class="Vector" style="width: 9.11px; height: 13.49px; left: 7.20px; top: 5.03px; position: absolute; background: #FC0E2D"></div>
+    </div>
+    <div style="text-align: center; color: black; font-size: 20px; font-family: Inter; font-weight: 600; text-transform: capitalize; word-wrap: break-word">넷플릭스</div>
+  </div>
+  <div class="Button" style="padding-left: 16px; padding-right: 16px; padding-top: 10px; padding-bottom: 10px; left: 845px; top: 224px; position: absolute; background: white; border-radius: 28px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+    <div class="IconDisneyplus" style="width: 44.17px; height: 24px; justify-content: center; align-items: center; display: flex">
+      <div class="Group" style="width: 44.17px; height: 24px; position: relative">
+        <div class="Vector" style="width: 44.17px; height: 15.15px; left: 0px; top: 8.85px; position: absolute; background: black"></div>
+        <div class="Vector" style="width: 32.88px; height: 11.91px; left: 7.68px; top: 0px; position: absolute; background: linear-gradient(278deg, #101C50 0%, #0D267A 24%, #085AA4 50%, #058BBF 65%, #B1FFFF 100%)"></div>
+      </div>
+    </div>
+    <div style="text-align: center; color: black; font-size: 20px; font-family: Inter; font-weight: 600; text-transform: capitalize; word-wrap: break-word">디즈니+</div>
+  </div>
+  
+</div>
+</html>
