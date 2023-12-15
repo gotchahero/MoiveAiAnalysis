@@ -16,12 +16,22 @@ def url_encode_filter(s):
 # 필터를 Flask 앱에 추가
 app.jinja_env.filters['url_encode'] = url_encode_filter
 
-# 영화 이미지 파일이 있는 로컬 폴더 경로
+import re
+import os
+
+def extract_number(filename):
+    # 파일 이름에서 숫자 추출
+    match = re.search(r'\d+', filename)
+    return int(match.group()) if match else 0
+
 movie_image_folder = 'static/images/movies'
 
 # 영화 이미지 파일 목록을 읽어옴
 movie_image_files = os.listdir(movie_image_folder)
 movie_image_files = [filename for filename in movie_image_files if filename.endswith('.jpg')]
+
+# 파일 이름에 따라 순서 정렬
+movie_image_files.sort(key=extract_number)
 
 # URL에 적합하게 영화 제목 변환
 def format_movie_title(title):
@@ -108,4 +118,4 @@ def movie():
     return render_template('movie.html', positive_reviews=positive_reviews, negative_reviews=negative_reviews, positive_percentage=positive_percentage, negative_percentage=negative_percentage, cast_info=cast_info)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000)
